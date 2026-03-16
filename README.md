@@ -7,4 +7,4 @@ It contains swedish characters and swedish symbol codes
 
 ## Brain layout
 
-![image](docs/export/brain.png)
+![image](docs/export/brain.svg)
