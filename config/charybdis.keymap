@@ -77,17 +77,17 @@
 
         BASE {
             bindings = <
-&kp GRAVE       &kp N1              &kp N2          &kp N3          &kp N4        &kp N5           &kp N6           &kp N7       &kp N8       &kp N9           &kp N0                  &kp MINUS
-&kp TAB         &kp Q               &kp W           &kp E           &kp R         &kp T            &kp Y            &kp U        &kp I        &kp O            &kp P                   &kp EQUAL
-&kp ESCAPE      &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_WIN D  &mt LSHIFT F  &kp G            &kp H            &mt RSHFT J  &mt RMETA K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL SEMI  &kp SQT
-&kp LEFT_SHIFT  &lt 3 Z             &kp X           &kp C           &kp V         &kp B            &kp N            &kp M        &kp COMMA    &kp PERIOD       &lt 3 SLASH             &kp RIGHT_SHIFT
+&kp GRAVE       &kp N1              &kp N2          &kp N3          &kp N4        &kp N5           &kp N6           &kp N7       &kp N8      &kp N9           &kp N0                  &kp MINUS
+&kp TAB         &kp Q               &kp W           &kp E           &kp R         &kp T            &kp Y            &kp U        &kp I       &kp O            &kp P                   &kp EQUAL
+&kp ESCAPE      &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_WIN D  &mt LSHIFT F  &kp G            &kp H            &mt RSHFT J  &mt RWIN K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL SEMI  &kp SQT
+&kp LEFT_SHIFT  &lt 3 Z             &kp X           &kp C           &kp V         &kp B            &kp N            &kp M        &kp COMMA   &kp PERIOD       &lt 3 SLASH             &kp RIGHT_SHIFT
                                                     &kp LWIN        &kp SPACE     &lt 1 TAB        &lt 2 BACKSPACE  &kp SPACE
                                                                     &kp DEL       &kp BACKSPACE    &kp RET
             >;
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -95,34 +95,34 @@
 
         LOWER {
             bindings = <
-&kp F12          &kp F1   &kp F2    &kp F3          &kp F4     &kp F5              &kp F6             &kp F7      &kp F8  &kp F9  &kp F10       &kp F11
-&trans           &trans   &trans    &kp UP_ARROW    &trans     &kp LBRC            &kp RBRC           &kp N7      &kp N8  &kp N9  &kp PLUS      &kp MINUS
-&kp PRINTSCREEN  &kp INS  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N4      &kp N5  &kp N6  &kp ASTERISK  &kp SLASH
-&kp CAPSLOCK     &trans   &trans    &trans          &trans     &kp LPAR            &kp RPAR           &kp N1      &kp N2  &kp N3  &kp EQUAL     &kp CAPSLOCK
-                                    &trans          &trans     &trans              &kp N0             &kp PERIOD
-                                                    &trans     &trans              &kp RETURN
+&kp F12          &kp F1  &kp F2    &kp F3          &kp F4     &kp F5              &kp F6             &kp F7      &kp F8  &kp F9  &kp F10       &kp F11
+&trans           &trans  &trans    &kp UP_ARROW    &trans     &kp LBRC            &kp RBRC           &kp N7      &kp N8  &kp N9  &kp PLUS      &kp MINUS
+&kp PRINTSCREEN  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N4      &kp N5  &kp N6  &kp ASTERISK  &kp SLASH
+&kp LSHFT        &trans  &trans    &trans          &trans     &kp LPAR            &kp RPAR           &kp N1      &kp N2  &kp N3  &kp EQUAL     &kp RSHIFT
+                                   &trans          &trans     &trans              &kp N0             &kp PERIOD
+                                                   &kp INS    &trans              &kp RETURN
             >;
         };
 
         RAISE {
             bindings = <
-&kp F12   &kp F1    &kp F2  &kp F3    &kp F4     &kp F5                               &kp F6  &kp F7  &trans  &trans  &trans  &trans
-&trans    &kp EXCL  &kp AT  &kp HASH  &trans     &trans                               &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &trans    &trans  &trans    &trans     &trans                               &trans  &trans  &trans  &trans  &trans  &trans
-&kp CAPS  &trans    &trans  &trans    &trans     &trans                               &trans  &trans  &trans  &trans  &trans  &kp CAPS
-                            &kp HOME  &kp PG_UP  &kp END                              &trans  &trans
-                                      &kp PG_DN  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS    &trans
+&kp F12       &kp F1    &kp F2  &kp F3    &kp F4     &kp F5                               &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&trans        &kp EXCL  &kp AT  &kp HASH  &trans     &trans                               &trans  &trans  &trans  &trans  &trans   &trans
+&trans        &trans    &trans  &trans    &trans     &trans                               &trans  &trans  &trans  &trans  &trans   &trans
+&kp CAPSLOCK  &trans    &trans  &trans    &trans     &trans                               &trans  &trans  &trans  &trans  &trans   &kp CAPS
+                                &kp HOME  &kp PG_UP  &kp END                              &trans  &trans
+                                          &kp PG_DN  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS    &trans
             >;
         };
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans    &trans             &trans             &trans    &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans    &trans             &trans             &trans    &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans    &trans             &trans             &trans    &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans
-&trans  &trans  &trans  &trans    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &trans    &trans    &trans    &trans    &trans  &trans
-                        &mkp MB1  &mkp MB3           &mkp MB2           &mkp MB3  &mkp MB2
-                                  &trans             &trans             &mkp MB1
+&trans      &trans            &trans        &trans      &trans             &trans             &trans    &trans      &trans    &trans         &trans             &trans
+&trans      &trans            &trans        &trans      &trans             &trans             &trans    &trans      &trans    &trans         &trans             &trans
+&trans      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI    &kp LSHIFT         &trans             &trans    &kp RSHIFT  &kp RWIN  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &trans
+&kp LSHIFT  &trans            &trans        &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &mkp MB1  &mkp MB3    &mkp MB2  &trans         &trans             &kp RSHIFT
+                                            &mkp MB1    &mkp MB3           &mkp MB2           &mkp MB3  &mkp MB2
+                                                        &trans             &trans             &mkp MB1
             >;
         };
 
