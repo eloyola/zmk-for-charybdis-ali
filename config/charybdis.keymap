@@ -87,7 +87,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -106,16 +106,16 @@
 
         RAISE {
             bindings = <
-&kp F12  &kp F1    &kp F2  &kp F3    &kp F4     &kp F5     &trans  &trans  &trans  &trans  &trans           &trans
-&trans   &kp EXCL  &kp AT  &kp HASH  &trans     &trans     &trans  &trans  &trans  &trans  &trans           &trans
-&trans   &trans    &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans  &kp RIGHT_BRACE  &trans
-&trans   &trans    &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans  &kp SEMICOLON    &trans
-                           &kp HOME  &kp PG_UP  &kp END    &trans  &trans
-                                     &kp PG_DN  &trans     &trans
+&kp F12   &kp F1    &kp F2  &kp F3    &kp F4     &kp F5                               &trans  &trans  &trans  &trans  &trans  &trans
+&trans    &kp EXCL  &kp AT  &kp HASH  &trans     &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+&trans    &trans    &trans  &trans    &trans     &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+&kp CAPS  &trans    &trans  &trans    &trans     &trans                               &trans  &trans  &trans  &trans  &trans  &kp CAPS
+                            &kp HOME  &kp PG_UP  &kp END                              &trans  &trans
+                                      &kp PG_DN  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS    &trans
             >;
         };
 
-        ADJ {
+        MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans    &trans             &trans             &trans    &trans    &trans    &trans    &trans  &trans
 &trans  &trans  &trans  &trans    &trans             &trans             &trans    &trans    &trans    &trans    &trans  &trans
