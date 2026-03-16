@@ -17,7 +17,7 @@ jobs:
 
       - name: Generate svg
         run: |
-          keymap -c keymap_drawer.config.yaml parse -z config/charybdis.keymap | keymap -c keymap_drawer.config.yaml draw -d config/boards/shields/charydbis/charybdis.dtsi - >docs/export/brain.svg
+          keymap -c keymap_drawer.config.yaml parse -z config/charybdis.keymap | keymap -c keymap_drawer.config.yaml draw -d config/boards/shields/charybdis/charybdis.dtsi - >docs/export/brain.svg
 
       - name: Get author and committer info from HEAD commit
         uses: rlespinasse/git-commit-data-action@v1
