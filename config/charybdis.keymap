@@ -96,7 +96,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -137,12 +137,12 @@
 
         CONFIG {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans      &trans      &trans      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 0  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans  &trans
-&mo 0   &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 1  &trans      &trans      &trans      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 2  &trans      &trans      &trans      &trans  &trans
-                        &trans  &trans  &trans    &trans        &trans
-                                &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans         &trans                  &trans        &trans      &trans      &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans         &trans                  &bt BT_SEL 0  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans  &trans
+&mo 0   &trans  &trans  &trans  &trans         &trans                  &bt BT_SEL 1  &trans      &trans      &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans         &trans                  &bt BT_SEL 2  &trans      &trans      &trans      &trans  &trans
+                        &trans  &trans         &trans                  &trans        &trans
+                                &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC    &kp K_LOCK
             >;
         };
 
