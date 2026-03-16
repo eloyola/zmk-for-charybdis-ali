@@ -87,7 +87,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -96,22 +96,22 @@
         LOWER {
             bindings = <
 &kp F12          &kp F1   &kp F2    &kp F3          &kp F4     &kp F5              &kp F6             &kp F7      &kp F8  &kp F9  &kp F10       &kp F11
-&trans           &none    &none     &kp UP_ARROW    &none      &kp LBRC            &kp RBRC           &kp N7      &kp N8  &kp N9  &kp PLUS      &kp MINUS
+&trans           &trans   &trans    &kp UP_ARROW    &trans     &kp LBRC            &kp RBRC           &kp N7      &kp N8  &kp N9  &kp PLUS      &kp MINUS
 &kp PRINTSCREEN  &kp INS  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N4      &kp N5  &kp N6  &kp ASTERISK  &kp SLASH
-&kp CAPSLOCK     &trans   &trans    &trans          &none      &kp LPAR            &kp RPAR           &kp N1      &kp N2  &kp N3  &kp EQUAL     &kp CAPSLOCK
-                                    &kp LEFT_ALT    &kp SPACE  &trans              &kp N0             &kp PERIOD
+&kp CAPSLOCK     &trans   &trans    &trans          &trans     &kp LPAR            &kp RPAR           &kp N1      &kp N2  &kp N3  &kp EQUAL     &kp CAPSLOCK
+                                    &trans          &trans     &trans              &kp N0             &kp PERIOD
                                                     &trans     &trans              &kp RETURN
             >;
         };
 
         RAISE {
             bindings = <
-&kp F12  &kp F1    &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans           &trans
-&trans   &kp EXCL  &kp AT  &kp HASH  &trans  &trans    &trans  &trans  &trans  &trans  &trans           &trans
-&trans   &trans    &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &kp RIGHT_BRACE  &trans
-&trans   &trans    &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &kp SEMICOLON    &trans
-                           &trans    &trans  &trans    &trans  &trans
-                                     &trans  &trans    &trans
+&kp F12  &kp F1    &kp F2  &kp F3    &kp F4     &trans     &trans  &trans  &trans  &trans  &trans           &trans
+&trans   &kp EXCL  &kp AT  &kp HASH  &trans     &trans     &trans  &trans  &trans  &trans  &trans           &trans
+&trans   &trans    &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans  &kp RIGHT_BRACE  &trans
+&trans   &trans    &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans  &kp SEMICOLON    &trans
+                           &kp HOME  &kp PG_UP  &kp END    &trans  &trans
+                                     &kp PG_DN  &trans     &trans
             >;
         };
 
