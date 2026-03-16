@@ -33,7 +33,7 @@ layers:
   - G
   - H
   - {t: J, h: RSHFT}
-  - {t: K, h: RMETA}
+  - {t: K, h: RWIN}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT CONTROL}
   - ''''
@@ -83,7 +83,7 @@ layers:
   - +
   - '-'
   - PRINTSCREEN
-  - INS
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN ARROW
   - RIGHT
@@ -94,7 +94,7 @@ layers:
   - '6'
   - '*'
   - /
-  - CAPSLOCK
+  - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -105,13 +105,13 @@ layers:
   - '2'
   - '3'
   - '='
-  - CAPSLOCK
+  - RSHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - '0'
   - .
-  - {t: ▽, type: trans}
+  - INS
   - {t: ▽, type: trans}
   - RETURN
   RAISE:
@@ -123,10 +123,10 @@ layers:
   - F5
   - F6
   - F7
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F8
+  - F9
+  - F10
+  - F11
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -151,7 +151,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CAPS
+  - CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -197,29 +197,29 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LEFT CONTROL
+  - LEFT ALT
+  - LGUI
+  - LSHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - RSHIFT
+  - RWIN
+  - RIGHT ALT
+  - RIGHT CONTROL
   - {t: ▽, type: trans}
+  - LSHIFT
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - VOLUME DOWN
-  - VOLUME UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RSHIFT
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
