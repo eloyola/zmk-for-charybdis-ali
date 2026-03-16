@@ -283,7 +283,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BRI DEC
-  - BRIGHTNESS INC
+  - BRI UP
   - LOCK
 combos:
 - p: [54, 55]
