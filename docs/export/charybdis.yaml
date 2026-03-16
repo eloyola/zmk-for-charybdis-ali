@@ -282,9 +282,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRI DEC
+  - BRIGHTNESS INC
+  - LOCK
 combos:
 - p: [54, 55]
   k: ''
