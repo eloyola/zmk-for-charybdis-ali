@@ -86,17 +86,17 @@
 
         BASE {
             bindings = <
-&kp GRAVE       &kp N1              &kp N2          &kp N3          &kp N4        &kp N5           &kp N6           &kp N7       &kp N8      &kp N9           &kp N0                  &kp MINUS
-&kp TAB         &kp Q               &kp W           &kp E           &kp R         &kp T            &kp Y            &kp U        &kp I       &kp O            &kp P                   &kp EQUAL
-&kp ESCAPE      &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_WIN D  &mt LSHIFT F  &kp G            &kp H            &mt RSHFT J  &mt RWIN K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL SEMI  &kp SQT
-&kp LEFT_SHIFT  &lt 3 Z             &kp X           &kp C           &kp V         &kp B            &kp N            &kp M        &kp COMMA   &kp PERIOD       &lt 3 SLASH             &kp RIGHT_SHIFT
-                                                    &kp LWIN        &kp SPACE     &lt 1 TAB        &lt 2 BACKSPACE  &kp SPACE
-                                                                    &kp DEL       &kp BACKSPACE    &kp RET
+&kp GRAVE       &kp N1              &kp N2          &kp N3          &kp N4            &kp N5           &kp N6           &kp N7       &kp N8      &kp N9           &kp N0                  &kp MINUS
+&kp TAB         &kp Q               &kp W           &kp E           &kp R             &kp T            &kp Y            &kp U        &kp I       &kp O            &kp P                   &kp EQUAL
+&kp ESCAPE      &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_WIN D  &mt LSHIFT F      &kp G            &kp H            &mt RSHFT J  &mt RWIN K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL SEMI  &kp SQT
+&kp LEFT_SHIFT  &lt 3 Z             &kp X           &kp C           &kp V             &kp B            &kp N            &kp M        &kp COMMA   &kp PERIOD       &lt 3 SLASH             &kp RIGHT_SHIFT
+                                                    &kp LWIN        &kp LEFT_CONTROL  &lt 1 TAB        &lt 2 BACKSPACE  &kp SPACE
+                                                                    &kp DEL           &kp BACKSPACE    &kp RET
             >;
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
