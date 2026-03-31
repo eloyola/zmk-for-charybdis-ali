@@ -253,7 +253,7 @@ layers:
   - BT NXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BASE
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
