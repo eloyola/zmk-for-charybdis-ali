@@ -50,7 +50,7 @@ layers:
   - {t: /, h: MOUSE}
   - RIGHT SHIFT
   - LWIN
-  - SPACE
+  - LEFT CONTROL
   - {t: TAB, h: LOWER}
   - {t: BACKSPACE, h: RAISE}
   - SPACE
