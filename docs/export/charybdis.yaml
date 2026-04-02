@@ -210,10 +210,10 @@ layers:
   - {t: ▽, type: trans}
   - LSHIFT
   - {type: held}
-  - {t: ▽, type: trans}
-  - MUTE
-  - VOLUME DOWN
-  - VOLUME UP
+  - Scroll
+  - Sniping
+  - ''
+  - ''
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
@@ -221,12 +221,12 @@ layers:
   - {t: ▽, type: trans}
   - RSHIFT
   - '&mkp MB1'
+  - '&mkp MB4'
+  - '&mkp MB5'
   - '&mkp MB3'
   - '&mkp MB2'
   - '&mkp MB3'
   - '&mkp MB2'
-  - '&win_capture'
-  - {t: ▽, type: trans}
   - '&mkp MB1'
   '4':
   - {t: ▽, type: trans}
@@ -323,8 +323,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -380,9 +380,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
