@@ -162,7 +162,7 @@
 &trans      &trans            &trans        &trans    &trans      &trans      &trans    &trans      &trans    &trans         &trans             &trans
 &trans      &trans            &trans        &trans    &trans      &trans      &trans    &trans      &trans    &trans         &trans             &trans
 &trans      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &kp LSHIFT  &trans      &trans    &kp RSHIFT  &kp RWIN  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &trans
-&kp LSHIFT  &trans            &mo 5         &mo 6     &none       &none       &mkp MB1  &mkp MB3    &mkp MB2  &trans         &trans             &kp RSHIFT
+&kp LSHIFT  &trans            &mo 5         &mo 6     &none       &none       &mkp MB1  &mkp MB3    &mkp MB2  &trans         &trans             &trans
                                             &mkp MB1  &mkp MB4    &mkp MB5    &mkp MB3  &mkp MB2
                                                       &mkp MB3    &mkp MB2    &mkp MB1
             >;
