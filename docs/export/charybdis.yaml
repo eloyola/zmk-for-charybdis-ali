@@ -219,7 +219,7 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RSHIFT
+  - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB4'
   - '&mkp MB5'
